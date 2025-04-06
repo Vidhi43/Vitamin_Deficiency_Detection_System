@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile - Vitamin Deficiency Detection</title>
+  <link rel="stylesheet" href="profile.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Add these in head or before closing body tag -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <img src="bg1.jpg" alt="Background" class="background-image" />
+
+  <nav class="navbar">
+    <h1 class="logo">Vitamin Deficiency Detection</h1>
+    <ul class="nav-links">
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Account</a>
+        <div class="dropdown-content">
+          <a href="profile.html">Profile</a>
+          <a href="login.html">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="dashboard-container">
+    <!-- Profile Section -->
+    <div class="profile-section">
+        <div class="profile-photo-container">
+            <img id="profileImage" src="profile.jpg" alt="Profile Picture" class="profile-photo">
+            <input type="file" id="profileImageUpload" accept="image/*" style="display: none;">
+            <button class="upload-btn" id="changePhotoBtn">Change Photo</button>
+        </div>
+
+      <div class="profile">
+        <p><strong>Name:</strong><br> Detector</p>
+        <p><strong>Email:</strong><br> detector@gmail.com</p>
+        <p><strong>Phone:</strong><br> 1234567890</p>
+        <p><strong>Age:</strong><br> 21</p>
+      </div>
+    </div>
+
+    <!-- Reports Section -->
+    <div class="reports-section">
+      <h2>Your Deficiency Reports</h2>
+      <div class="reports-list" id="reportsList">
+        <div class="no-reports">No reports generated yet</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for report details -->
+  <div id="reportModal" class="report-modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div id="modalReportContent"></div>
+    </div>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>

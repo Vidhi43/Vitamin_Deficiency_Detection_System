@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vitamin Deficiency Detection</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script defer src="script1.js"></script>
+</head>
+<body>
+    <div class="full-page-background"></div>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <h1 class="logo">Vitamin Deficiency Detection</h1>
+        <ul class="nav-links">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn" aria-haspopup="true">Account</a>
+                <div class="dropdown-content" aria-label="submenu">
+                    <a href="profile.html">Profile</a>
+                    <a href="login.html">Logout</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <main class="content-wrapper">
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">Vitamin Deficiency Detection</h1>
+                <p class="fade-in">Upload an image to detect potential vitamin deficiencies using our advanced AI technology.</p>
+            </div>
+        </header>
+        <section class="upload-section">
+            <h2>Upload Image for Analysis</h2>
+            <div class="upload-area" id="uploadArea" >
+                <div class="upload-text-container">
+                    <div id="uploadText">Drag & drop your image here</div>
+                    <div id="uploadInstructions">or click to browse</div>
+                </div>
+                <input type="file" id="imageUpload" accept="image/*" />
+                <img id="imagePreview" class="imagePreview" alt="Image Preview" />
+            </div>
+            <button class="detect-btn" id="detectBtn" disabled>Detect Deficiency</button>
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <div id="resultsContent"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
