@@ -4,18 +4,18 @@ This project aims to detect vitamin deficiencies (such as Vitamin B, D, etc.) us
 This project bridges a critical gap in preventive healthcare by empowering individuals to
 monitor their nutritional health conveniently and take informed action when needed.
 
-# Features
+## Features
 
-Upload image(s) for diagnosis
+- Upload image(s) for diagnosis
 
-Detect signs of specific vitamin deficiencies
+- Detect signs of specific vitamin deficiencies
 
-Auto-generated report summarizing findings
+- Auto-generated report summarizing findings
 
-Web application frontend with JavaScript
+- Web application frontend with JavaScript
 
-Backend API built with Python (Flask/FastAPI)
+- Backend API built with Python (Flask/FastAPI)
 
-Responsive and user-friendly UI
+- Responsive and user-friendly UI
 
-Report publication integrated for documentation
+- Report publication integrated for documentation
