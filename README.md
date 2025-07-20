@@ -6,10 +6,16 @@ monitor their nutritional health conveniently and take informed action when need
 
 # Features
 
-//Upload image(s) for diagnosis
-//Detect signs of specific vitamin deficiencies
-//Auto-generated report summarizing findings
-//Web application frontend with JavaScript
-//Backend API built with Python (Flask/FastAPI)
-//Responsive and user-friendly UI
-//Report publication integrated for documentation
+Upload image(s) for diagnosis
+
+Detect signs of specific vitamin deficiencies
+
+Auto-generated report summarizing findings
+
+Web application frontend with JavaScript
+
+Backend API built with Python (Flask/FastAPI)
+
+Responsive and user-friendly UI
+
+Report publication integrated for documentation
