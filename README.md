@@ -27,13 +27,50 @@ monitor their nutritional health conveniently and take informed action when need
    - CSS
    - JS
    - Node.js
+     
 2. Backend
    - Python Flask API
    - JSON
    - MySQL
    - Tensorflow
    - Keras
+     
 3. Tools
    - Git
    - Github
    - VS Code
+
+## Published Report
+
+We also published a detailed report on the methodology, datasets, and results, through IJCRT, which can be accessed here:
+
+https://doi.org/10.5281/ZENODO.15718974
+
+## Result and Accuracy
+
+- Accuracy: ~75–80% (based on model and dataset used)
+
+- Real-time testing through web interface
+
+- Confusion matrix and precision-recall evaluation in report
+
+## Achievements
+
+- Successfully integrated image analysis with health diagnostics
+
+- Created a deployable web app
+
+- Report published
+
+## Result
+
+<img width="456" height="233" alt="image" src="https://github.com/user-attachments/assets/52fd28da-cd71-4773-af7b-5bb6479be849" />
+
+<img width="456" height="233" alt="image" src="https://github.com/user-attachments/assets/8bda6b20-72b3-4842-81cf-dbad40d15496" />
+
+## Contributors
+
+- Vidhi Dilip Kumar Nimje
+- Janhavi Avinash Khune
+- Saniya Ajay Shiradkar
+- Tejas Pravin Admane
