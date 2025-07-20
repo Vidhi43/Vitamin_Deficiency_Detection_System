@@ -42,7 +42,9 @@ monitor their nutritional health conveniently and take informed action when need
 
 ## Published Report
 
-We also published a detailed report on the methodology, datasets, and results, through IJCRT, which can be accessed here:
+We also published a detailed report on methodology, dataset selection process, implementation pipeline, and analytical results of this project have been formally documented and published in the International Journal of Creative Research Thoughts (IJCRT). This publication validates the academic and practical relevance of our work in the intersection of healthcare and artificial intelligence.
+
+You can access the full published report here:
 
 https://doi.org/10.5281/ZENODO.15718974
 
