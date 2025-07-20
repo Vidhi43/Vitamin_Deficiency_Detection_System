@@ -56,23 +56,5 @@ https://doi.org/10.5281/ZENODO.15718974
 
 - Confusion matrix and precision-recall evaluation in report
 
-## Achievements
 
-- Successfully integrated image analysis with health diagnostics
 
-- Created a deployable web app
-
-- Report published
-
-## Result
-
-<img width="456" height="233" alt="image" src="https://github.com/user-attachments/assets/52fd28da-cd71-4773-af7b-5bb6479be849" />
-
-<img width="456" height="233" alt="image" src="https://github.com/user-attachments/assets/8bda6b20-72b3-4842-81cf-dbad40d15496" />
-
-## Contributors
-
-- Vidhi Dilip Kumar Nimje
-- Janhavi Avinash Khune
-- Saniya Ajay Shiradkar
-- Tejas Pravin Admane
